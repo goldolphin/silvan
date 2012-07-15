@@ -2,46 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c7972df-5822-410b-b9e8-5a8040d113e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/IdeaProject.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/highlighting.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_thoughtworks_paranamer_paranamer_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_collections_commons_collections_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang_commons_lang_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/io_netty_netty_3_4_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_avro_avro_1_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_avro_avro_ipc_1_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_avro_avro_tools_1_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_lucene_lucene_core_3_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_velocity_velocity_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_core_asl_1_8_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_mapper_asl_1_8_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_mortbay_jetty_jetty_6_1_26.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_mortbay_jetty_jetty_util_6_1_26.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_mortbay_jetty_servlet_api_2_5_20081211.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_scala_lang_scala_library_2_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_slf4j_slf4j_api_1_6_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_xerial_snappy_snappy_java_1_0_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/scala_compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/scala_library.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/projectCodeStyle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea_modules/default-2014c5.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea_modules/project.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea_modules/silvan.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/plugins.sbt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/silvan.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/silvan.avpr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/merger/Merger.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="silvan.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,64 +62,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.sbt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
+      <file leaf-file-name="Merger.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/merger/Merger.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="20" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexReader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib_managed/srcs/org.apache.lucene/lucene-core/lucene-core-3.6.0-sources.jar!/org/apache/lucene/index/IndexReader.java">
+      <file leaf-file-name="silvan.avpr" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/silvan.avpr">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="25" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="33" selection-start="109" selection-end="109" vertical-scroll-proportion="0.4351145">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugins.sbt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="3" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="$6c65b1beb2b3d175e90e.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/project/target/config-classes/$6c65b1beb2b3d175e90e.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="58" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Build.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.9.1/org.scala-sbt/sbt/0.11.3/main_2.9.1-0.11.3.jar!/sbt/Build.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="25" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModuleID.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.9.1/org.scala-sbt/sbt/0.11.3/ivy_2.9.1-0.11.3.jar!/sbt/ModuleID.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="17" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+            <state line="1" column="26" selection-start="70" selection-end="70" vertical-scroll-proportion="-0.14182693">
               <folding />
             </state>
           </provider>
@@ -180,6 +98,8 @@
         <option value="$PROJECT_DIR$/project/plugins.sbt" />
         <option value="$PROJECT_DIR$/project/SilvanBuild.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/resources/silvan.avro" />
+        <option value="$PROJECT_DIR$/src/main/resources/silvan.avpr" />
       </list>
     </option>
   </component>
@@ -246,6 +166,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -281,6 +204,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -303,6 +230,10 @@
               <option name="myItemId" value="scala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="merger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -321,17 +252,18 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
@@ -342,8 +274,8 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -366,6 +298,19 @@
         <option name="SBT.BeforeRunTask" enabled="false" runInCurrentModule="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="SBT.BeforeRunTask" enabled="false" runInCurrentModule="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
       <module name="" />
       <setting name="path" value="" />
@@ -383,38 +328,6 @@
         <option name="Make" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
         <option name="SBT.BeforeRunTask" enabled="true" action="test:products" runInCurrentModule="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="SBT.BeforeRunTask" enabled="false" runInCurrentModule="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="SBT.BeforeRunTask" enabled="false" runInCurrentModule="false" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -442,6 +355,25 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="SBT.BeforeRunTask" enabled="false" runInCurrentModule="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -650,27 +582,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" />
+        <state line="2" column="3" selection-start="69" selection-end="69" vertical-scroll-proportion="0.09134615">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/project/target/config-classes/$6c65b1beb2b3d175e90e.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="58" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" />
+        <state line="3" column="58" selection-start="154" selection-end="154" vertical-scroll-proportion="0.13701923">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.9.1/org.scala-sbt/sbt/0.11.3/main_2.9.1-0.11.3.jar!/sbt/Build.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" />
+        <state line="7" column="25" selection-start="463" selection-end="463" vertical-scroll-proportion="0.3196931">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.9.1/org.scala-sbt/sbt/0.11.3/ivy_2.9.1-0.11.3.jar!/sbt/ModuleID.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="17" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" />
+        <state line="1" column="17" selection-start="29" selection-end="29" vertical-scroll-proportion="0.05026455">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="109" selection-end="109" vertical-scroll-proportion="0.4351145">
+        <state line="9" column="33" selection-start="109" selection-end="109" vertical-scroll-proportion="0.41105768">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/merger/Merger.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/silvan.avpr">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="26" selection-start="70" selection-end="70" vertical-scroll-proportion="-0.14182693">
           <folding />
         </state>
       </provider>
