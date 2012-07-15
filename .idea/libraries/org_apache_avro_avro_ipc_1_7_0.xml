@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="org.apache.avro_avro-ipc_1.7.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/org.apache.avro/avro-ipc/avro-ipc-1.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib_managed/docs/org.apache.avro/avro-ipc/avro-ipc-1.7.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/org.apache.avro/avro-ipc/avro-ipc-1.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
