@@ -41,6 +41,7 @@
     <orderEntry type="library" name="commons-lang_commons-lang_2.4" level="project" />
     <orderEntry type="library" name="org.apache.avro_avro-tools_1.7.0" level="project" />
     <orderEntry type="library" name="org.apache.lucene_lucene-core_3.6.0" level="project" />
+    <orderEntry type="library" name="avro-compiler-1.7.0" level="project" />
   </component>
 </module>
 
