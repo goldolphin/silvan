@@ -1,7 +1,8 @@
+package net.goldolphin.silvan
+
 import java.io.File
 import org.apache.avro.compiler.specific.SpecificCompiler
 import sbt._
-import Process._
 import sbt.Keys._
 
 /**
@@ -10,18 +11,15 @@ import sbt.Keys._
  */
 
 object SilvanBuild extends Build {
+  lazy val project = Project("silvan", file("."), settings = silvanSettings)
+
   val avroConfig = config("avro")
 
   val generate = TaskKey[Seq[File]]("generate", "Generate the Java sources for the Avro files.")
 
-  lazy val avroSettings: Seq[Setting[_]] = inConfig(avroConfig)(Seq[Setting[_]](
-    sourceDirectory <<= (sourceDirectory in Compile) {
-      _ / "avro"
-    },
-    javaSource <<= (sourceManaged in Compile) {
-      _ / "compiled_avro"
-    },
-    version := "1.6.1",
+  lazy val silvanSettings = Defaults.defaultSettings ++ inConfig(avroConfig)(Seq[Setting[_]](
+    sourceDirectory <<= (sourceDirectory in Compile)(_ / "avro"),
+    javaSource <<= (scalaSource in Compile),
 
     managedClasspath <<= (classpathTypes, update) map {
       (ct, report) =>
@@ -30,8 +28,7 @@ object SilvanBuild extends Build {
 
     generate <<= sourceGeneratorTask
   )) ++ Seq[Setting[_]](
-    sourceGenerators in Compile <+= (generate in avroConfig),
-    managedSourceDirectories in Compile <+= (javaSource in avroConfig),
+    sourceGenerators in Compile <+= (generate in avroConfig)
   )
 
   private def compile(srcDir: File, target: File, log: Logger) = {
@@ -49,8 +46,6 @@ object SilvanBuild extends Build {
   }
 
   private def sourceGeneratorTask = (streams, sourceDirectory in avroConfig, javaSource in avroConfig, cacheDirectory) map {
-    (out, srcDir, targetDir, cache) =>
-    //TODO: Use FileFunction.cached to cache the compiled files. See: https://github.com/harrah/xsbt/wiki/FAQ
-      compile(srcDir, targetDir, out.log).toSeq
+    (out, srcDir, targetDir, cache) => compile(srcDir, targetDir, out.log).toSeq
   }
 }

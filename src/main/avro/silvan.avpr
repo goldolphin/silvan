@@ -1,5 +1,5 @@
 {"namespace": "net.goldolphin.silvan.avro",
- "protocol": "ApiProcessor",
+ "protocol": "SilvanApi",
 
  "types": [
      {"name": "Message", "type": "record",
