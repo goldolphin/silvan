@@ -2,8 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c7972df-5822-410b-b9e8-5a8040d113e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/api/ApiProcessor.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/comet/Chat.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/comet/ChatServer.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/lib/DependencyFactory.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/snippet/ChatIn.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/snippet/HelloWorld.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/view/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/templates-hidden/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/templates-hidden/wizard-all.html" />
+      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\com_thoughtworks_paranamer_paranamer_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\commons_collections_commons_collections_3_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\commons_lang_commons_lang_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\io_netty_netty_3_4_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_apache_avro_avro_1_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_apache_avro_avro_ipc_1_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_apache_lucene_lucene_core_3_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_apache_velocity_velocity_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_codehaus_jackson_jackson_core_asl_1_8_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_codehaus_jackson_jackson_mapper_asl_1_8_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_mortbay_jetty_jetty_6_1_26.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_mortbay_jetty_jetty_util_6_1_26.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_mortbay_jetty_servlet_api_2_5_20081211.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_scala_lang_scala_library_2_9_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_slf4j_slf4j_api_1_6_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_xerial_snappy_snappy_java_1_0_4_1.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea_modules/default-2014c5.iml" afterPath="$PROJECT_DIR$/.idea_modules/default-2014c5.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/plugins.sbt" afterPath="$PROJECT_DIR$/project/plugins.sbt" />
     </list>
     <ignored path="silvan.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,73 +92,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SilvanBuild.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/SilvanBuild.scala">
+      <file leaf-file-name="Boot.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="12" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0">
+            <state line="28" column="39" selection-start="659" selection-end="659" vertical-scroll-proportion="-5.16">
+              <folding>
+                <element signature="e#27#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Full.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib_managed/jars/net.liftweb/lift-common_2.9.1/lift-common_2.9.1-2.4.jar!/net/liftweb/common/Full.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="17" selection-start="75" selection-end="75" vertical-scroll-proportion="-1.52">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Merger.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/merger/Merger.scala">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="6" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
+            <state line="19" column="23" selection-start="624" selection-end="624" vertical-scroll-proportion="0.5486322">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Message.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/avro/Message.java">
+      <file leaf-file-name=".keep" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/view/.keep">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="30" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.5089286">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SilvanApi.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/avro/SilvanApi.java">
+      <file leaf-file-name="HelloWorld.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/snippet/HelloWorld.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="30" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0">
+            <state line="8" column="6" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#43#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatIn.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/snippet/ChatIn.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="7" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#43#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DependencyFactory.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/lib/DependencyFactory.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="7" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApiProcessor.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/api/ApiProcessor.scala">
+      <file leaf-file-name="ChatServer.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/comet/ChatServer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="9" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+            <state line="11" column="7" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Build.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.9.1/org.scala-sbt/sbt/0.11.3/main_2.9.1-0.11.3.jar!/sbt/Build.class">
+      <file leaf-file-name="Chat.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/comet/Chat.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="6" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+            <state line="12" column="6" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Project.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.9.1/org.scala-sbt/sbt/0.11.3/main_2.9.1-0.11.3.jar!/sbt/Project.class">
+      <file leaf-file-name="Date.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.6.0_26/src.zip!/java/util/Date.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="14" selection-start="2375" selection-end="2375" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SparkBuild.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spark/project/SparkBuild.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="50" selection-start="614" selection-end="642" vertical-scroll-proportion="0.0">
+            <state line="111" column="13" selection-start="5183" selection-end="5183" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,18 +201,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/build.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/silvan.avro" />
         <option value="$PROJECT_DIR$/src/main/resources/silvan.avpr" />
         <option value="$PROJECT_DIR$/../spark/project/plugins.sbt" />
         <option value="$PROJECT_DIR$/../spark/project/build.properties" />
         <option value="$PROJECT_DIR$/../spark/project/project/SparkPluginBuild.scala" />
         <option value="$PROJECT_DIR$/src/main/avro/silvan.avpr" />
-        <option value="$PROJECT_DIR$/project/plugins.sbt" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/project/SilvanBuild.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/api/ApiProcessor.scala" />
+        <option value="$PROJECT_DIR$/project/plugins.sbt" />
+        <option value="$PROJECT_DIR$/.idea_modules/default-2014c5.iml" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/lib/DependencyFactory.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/snippet/HelloWorld.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/snippet/ChatIn.scala" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala" />
       </list>
     </option>
   </component>
@@ -175,28 +234,199 @@
             <id />
           </State>
           <State>
+            <id>Abstraction issues</id>
+          </State>
+          <State>
+            <id>AccessibilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Annotations verifyingGroovy</id>
+          </State>
+          <State>
+            <id>Assignment issues</id>
+          </State>
+          <State>
+            <id>Class metrics</id>
+          </State>
+          <State>
+            <id>Class structure</id>
+          </State>
+          <State>
+            <id>Cloning issues</id>
+          </State>
+          <State>
             <id>Code maturity issues</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Concurrency annotation issues</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Data flow issues</id>
+          </State>
+          <State>
+            <id>Declaration redundancy</id>
+          </State>
+          <State>
+            <id>Declaration redundancyGroovy</id>
+          </State>
+          <State>
+            <id>Dependency issues</id>
           </State>
           <State>
             <id>Encapsulation issues</id>
           </State>
           <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>Finalization issues</id>
+          </State>
+          <State>
             <id>General</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>IDEA Platform Inspections</id>
+          </State>
+          <State>
+            <id>IconsUsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Imports</id>
+          </State>
+          <State>
+            <id>Inheritance issues</id>
+          </State>
+          <State>
+            <id>Initialization issues</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>InternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>J2ME issues</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>Java language level issues</id>
           </State>
           <State>
             <id>Java language level migration aids</id>
           </State>
           <State>
+            <id>JavaBeans issues</id>
+          </State>
+          <State>
             <id>Javadoc issues</id>
           </State>
           <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>MessagesCorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Method MetricsGroovy</id>
+          </State>
+          <State>
+            <id>Method metrics</id>
+          </State>
+          <State>
+            <id>Modularization issues</id>
+          </State>
+          <State>
+            <id>Naming ConventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventions</id>
+          </State>
+          <State>
+            <id>Numeric issues</id>
+          </State>
+          <State>
+            <id>Packaging issues</id>
+          </State>
+          <State>
+            <id>Pattern Validation</id>
+          </State>
+          <State>
             <id>Performance issues</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Resource management issues</id>
+          </State>
+          <State>
+            <id>Scala: General</id>
+          </State>
+          <State>
+            <id>Scala: Method signature</id>
+          </State>
+          <State>
+            <id>Security issues</id>
+          </State>
+          <State>
+            <id>SecurityLintAndroid</id>
+          </State>
+          <State>
+            <id>Serialization issues</id>
           </State>
           <State>
             <id>TestNG</id>
           </State>
           <State>
             <id>Threading issues</id>
+          </State>
+          <State>
+            <id>TypographyUsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>UsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Visibility issues</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>toString() issues</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -240,22 +470,22 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="silvan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="silvan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -300,15 +530,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="silvan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="merger" />
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,10 +557,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="silvan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="avro" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -390,7 +608,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="avro" />
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liftweb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -404,7 +626,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -413,23 +639,34 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.108161256" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="Errors" />
+    <property name="options.lastSelected" value="preferences.sourceCode.General" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="project.structure.side.proportion" value="0.11111111" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="silvan" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\silvan\src\main\webapp" />
+      <recent name="D:\workspace\silvan\src\main\scala\net\goldolphin\silvan\web" />
+      <recent name="D:\workspace\silvan\src\main\scala" />
       <recent name="D:\workspace\silvan\src\main\avro" />
       <recent name="D:\workspace\silvan\src\test" />
     </key>
@@ -451,6 +688,19 @@
         <option name="SBT.BeforeRunTask" enabled="false" runInCurrentModule="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="SBT.BeforeRunTask" enabled="false" runInCurrentModule="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
       <module name="" />
       <setting name="path" value="" />
@@ -468,38 +718,6 @@
         <option name="Make" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
         <option name="SBT.BeforeRunTask" enabled="true" action="test:products" runInCurrentModule="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="SBT.BeforeRunTask" enabled="false" runInCurrentModule="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="SBT.BeforeRunTask" enabled="false" runInCurrentModule="false" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -527,6 +745,25 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="SBT.BeforeRunTask" enabled="false" runInCurrentModule="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -642,27 +879,51 @@
       <created>1342524989235</created>
       <updated>1342524989235</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ADD: src">
+      <created>1342612792597</created>
+      <updated>1342612792597</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29753694" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29655173" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906404" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939074" sideWeight="0.58536583" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26189205" sideWeight="0.70246303" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26509887" sideWeight="0.7034483" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -733,90 +994,120 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.9.1/org.scala-sbt/sbt/0.11.3/sbt_2.9.1-0.11.3.jar!/sbt/package.class">
+    <entry file="jar://C:/Program Files/scala/src/scala-library-src.jar!/scala/PartialFunction.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="12" selection-start="1257" selection-end="1257" vertical-scroll-proportion="-12.96" />
+        <state line="50" column="6" selection-start="1865" selection-end="1865" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.9.1/org.scala-sbt/sbt/0.11.3/collections_2.9.1-0.11.3.jar!/sbt/Init.class">
+    <entry file="jar://$PROJECT_DIR$/lib_managed/srcs/net.liftweb/lift-webkit_2.9.1/lift-webkit_2.9.1-2.4-sources.jar!/net/liftweb/http/MVCHelper.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="66" selection-start="2460" selection-end="2480" vertical-scroll-proportion="-10.88" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.9.1/org.scala-sbt/sbt/0.11.3/io_2.9.1-0.11.3.jar!/sbt/RichFile.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="116" selection-end="116" vertical-scroll-proportion="-1.52" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.9.1/org.scala-sbt/sbt/0.11.3/main_2.9.1-0.11.3.jar!/sbt/Scoped.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="14" selection-start="2902" selection-end="2902" vertical-scroll-proportion="-8.6" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/avro/silvan.avpr">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="51" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.9.1/org.scala-sbt/sbt/0.11.3/main_2.9.1-0.11.3.jar!/sbt/Build.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.9.1/org.scala-sbt/sbt/0.11.3/main_2.9.1-0.11.3.jar!/sbt/Project.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="14" selection-start="2375" selection-end="2375" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark/project/SparkBuild.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="50" selection-start="614" selection-end="642" vertical-scroll-proportion="0.0" />
+        <state line="35" column="34" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/SilvanBuild.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="12" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0">
+        <state line="12" column="32" selection-start="219" selection-end="224" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/merger/Merger.scala">
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_26/src.zip!/java/util/Date.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/api/ApiProcessor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="9" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+        <state line="111" column="13" selection-start="5183" selection-end="5183" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/avro/SilvanApi.java">
+    <entry file="file://$PROJECT_DIR$/../spark/project/SparkBuild.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0">
+        <state line="17" column="50" selection-start="614" selection-end="642" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/avro/Message.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/view/.keep">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.5089286">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/snippet/HelloWorld.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#43#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/snippet/ChatIn.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="7" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#43#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/lib/DependencyFactory.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="7" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/comet/ChatServer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/comet/Chat.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="6" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/lift_basic/src/main/scala/bootstrap/liftweb/Boot.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="0" selection-start="2155" selection-end="2284" vertical-scroll-proportion="0.72303206">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/scala_compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib_managed/jars/net.liftweb/lift-common_2.9.1/lift-common_2.9.1-2.4.jar!/net/liftweb/common/Full.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="75" selection-end="75" vertical-scroll-proportion="-1.52">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="39" selection-start="659" selection-end="659" vertical-scroll-proportion="-5.16">
+          <folding>
+            <element signature="e#27#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="23" selection-start="624" selection-end="624" vertical-scroll-proportion="0.5486322">
           <folding />
         </state>
       </provider>
@@ -830,7 +1121,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.11111111" />
               </list>
             </option>
           </splitter-proportions>
@@ -854,7 +1145,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.11111111" />
               </list>
             </option>
           </splitter-proportions>
@@ -879,7 +1170,6 @@
             <option name="proportions">
               <list>
                 <option value="0.11111111" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -899,11 +1189,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>com.thoughtworks.paranamer_paranamer_2.3</last-edited>
+          <last-edited>scala-library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.32524806" />
+                <option value="0.11111111" />
               </list>
             </option>
           </splitter-proportions>
