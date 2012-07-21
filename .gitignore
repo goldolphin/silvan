@@ -1,6 +1,10 @@
 *.class
 *.log
 
+# idea specific
+.history
+.idea/workspace.xml
+
 # sbt specific
 dist/*
 target/
