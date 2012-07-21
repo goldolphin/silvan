@@ -1,41 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c7972df-5822-410b-b9e8-5a8040d113e5" name="Default" comment="DELETE: workspace.xml">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/view/.keep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/api/ApiProcessor.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/comet/Chat.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/comet/ChatServer.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/lib/DependencyFactory.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/snippet/ChatIn.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/snippet/HelloWorld.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/templates-hidden/default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/templates-hidden/wizard-all.html" />
-      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\com_thoughtworks_paranamer_paranamer_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\commons_collections_commons_collections_3_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\commons_lang_commons_lang_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\io_netty_netty_3_4_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_apache_avro_avro_1_7_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_apache_avro_avro_ipc_1_7_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_apache_lucene_lucene_core_3_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_apache_velocity_velocity_1_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_codehaus_jackson_jackson_core_asl_1_8_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_codehaus_jackson_jackson_mapper_asl_1_8_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_mortbay_jetty_jetty_6_1_26.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_mortbay_jetty_jetty_util_6_1_26.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_mortbay_jetty_servlet_api_2_5_20081211.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_scala_lang_scala_library_2_9_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_slf4j_slf4j_api_1_6_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\silvan\.idea\libraries\org_xerial_snappy_snappy_java_1_0_4_1.xml" afterPath="" />
+    <list default="true" id="6c7972df-5822-410b-b9e8-5a8040d113e5" name="Default" comment="ADD: sbt-launch.jar">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbt/sbt-launch.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbt/sbt.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbt/sbt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea_modules/default-2014c5.iml" afterPath="$PROJECT_DIR$/.idea_modules/default-2014c5.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/plugins.sbt" afterPath="$PROJECT_DIR$/project/plugins.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala" afterPath="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templates-hidden/default.html" afterPath="$PROJECT_DIR$/src/main/webapp/templates-hidden/default.html" />
     </list>
     <ignored path="silvan.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,92 +70,87 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HttpServer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib_managed/srcs/org.apache.avro/avro-ipc/avro-ipc-1.7.0-sources.jar!/org/apache/avro/ipc/HttpServer.java">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="30" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="-9.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResponderServlet.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="jar://$PROJECT_DIR$/lib_managed/srcs/org.apache.avro/avro-ipc/avro-ipc-1.7.0-sources.jar!/org/apache/avro/ipc/ResponderServlet.java">
+      <file leaf-file-name="Menu.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib_managed/srcs/net.liftweb/lift-webkit_2.9.1/lift-webkit_2.9.1-2.4-sources.jar!/net/liftweb/builtin/snippet/Menu.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="66" selection-start="1645" selection-end="1645" vertical-scroll-proportion="0.578125">
+            <state line="261" column="32" selection-start="10808" selection-end="10808" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpServlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib_managed/srcs/org.mortbay.jetty/servlet-api/servlet-api-2.5-20081211-sources.jar!/javax/servlet/http/HttpServlet.java">
+      <file leaf-file-name="wizard-all.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/templates-hidden/wizard-all.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="22" selection-start="3144" selection-end="3144" vertical-scroll-proportion="0.0">
+            <state line="1" column="12" selection-start="17" selection-end="18" vertical-scroll-proportion="-0.6785714">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Responder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib_managed/srcs/org.apache.avro/avro-ipc/avro-ipc-1.7.0-sources.jar!/org/apache/avro/ipc/Responder.java">
+      <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/templates-hidden/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="22" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.0">
+            <state line="57" column="30" selection-start="1114" selection-end="1114" vertical-scroll-proportion="-2.6727273">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpecificResponder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib_managed/srcs/org.apache.avro/avro-ipc/avro-ipc-1.7.0-sources.jar!/org/apache/avro/ipc/specific/SpecificResponder.java">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="51" selection-start="2613" selection-end="2613" vertical-scroll-proportion="0.0">
+            <state line="11" column="29" selection-start="377" selection-end="377" vertical-scroll-proportion="-3.8">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib_managed/srcs/org.apache.avro/avro-ipc/avro-ipc-1.7.0-sources.jar!/org/apache/avro/ipc/Server.java">
+      <file leaf-file-name="Boot.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="17" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0">
+            <state line="23" column="25" selection-start="440" selection-end="440" vertical-scroll-proportion="-5.6296296">
+              <folding>
+                <element signature="e#27#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sbt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sbt/sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="24" selection-start="236" selection-end="236" vertical-scroll-proportion="0.14901961">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpTransceiver.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib_managed/srcs/org.apache.avro/avro-ipc/avro-ipc-1.7.0-sources.jar!/org/apache/avro/ipc/HttpTransceiver.java">
+      <file leaf-file-name="Menu.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib_managed/srcs/net.liftweb/lift-webkit_2.9.1/lift-webkit_2.9.1-2.4-sources.jar!/net/liftweb/sitemap/Menu.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="22" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.0">
+            <state line="559" column="6" selection-start="19237" selection-end="19237" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Build.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.9.1/org.scala-sbt/sbt/0.11.3/main_2.9.1-0.11.3.jar!/sbt/Build.class">
+      <file leaf-file-name="ChatIn.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/snippet/ChatIn.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="6" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Project.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.9.1/org.scala-sbt/sbt/0.11.3/main_2.9.1-0.11.3.jar!/sbt/Project.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="14" selection-start="2375" selection-end="2375" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SparkBuild.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spark/project/SparkBuild.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="50" selection-start="614" selection-end="642" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="0" column="33" selection-start="8" selection-end="33" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#43#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/build.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/silvan.avro" />
         <option value="$PROJECT_DIR$/src/main/resources/silvan.avpr" />
@@ -204,9 +175,15 @@
         <option value="$PROJECT_DIR$/../spark/project/build.properties" />
         <option value="$PROJECT_DIR$/../spark/project/project/SparkPluginBuild.scala" />
         <option value="$PROJECT_DIR$/src/main/avro/silvan.avpr" />
+        <option value="$PROJECT_DIR$/project/SilvanBuild.scala" />
         <option value="$PROJECT_DIR$/project/plugins.sbt" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/project/SilvanBuild.scala" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/templates-hidden/default.html" />
+        <option value="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala" />
+        <option value="$PROJECT_DIR$/sbt" />
+        <option value="$PROJECT_DIR$/sbt/sbt" />
       </list>
     </option>
   </component>
@@ -289,16 +266,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="silvan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -405,36 +372,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="merger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="silvan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="silvan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="silvan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="avro" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -471,43 +408,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="avro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="silvan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="silvan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="silvan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="silvan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="sbt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -523,6 +424,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="silvan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -531,7 +442,7 @@
     <property name="project.structure.proportion" value="0.108161256" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="Errors" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="project.structure.side.proportion" value="0.11111111" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -580,7 +491,7 @@
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="SBT.BeforeRunTask" enabled="true" action="test:products" runInCurrentModule="false" />
+        <option name="SBT.BeforeRunTask" enabled="true" action="~;container:start;container:reload /" runInCurrentModule="false" />
       </method>
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -756,28 +667,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.087804876" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29268292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29268292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25832656" sideWeight="0.35609755" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25832656" sideWeight="0.91219515" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25832656" sideWeight="0.70731705" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25832656" sideWeight="0.91219515" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -843,84 +754,113 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" />
+        <state line="14" column="20" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/SilvanBuild.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/snippet/HelloWorld.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="27" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0" />
+        <state line="8" column="16" selection-start="219" selection-end="229" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#43#75#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/merger/Merger.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/comet/ChatServer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" />
+        <state line="11" column="11" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/avro/Message.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/lib/DependencyFactory.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="23" selection-start="4873" selection-end="4873" vertical-scroll-proportion="0.0" />
+        <state line="15" column="7" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/avro/silvan.avpr">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/comet/Chat.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="51" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" />
+        <state line="16" column="22" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/avro/SilvanApi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/goldolphin/silvan/web/snippet/ChatIn.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" />
+        <state line="0" column="33" selection-start="8" selection-end="33" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#43#63#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib_managed/srcs/org.apache.avro/avro-ipc/avro-ipc-1.7.0-sources.jar!/org/apache/avro/ipc/HttpServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates-hidden/wizard-all.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="30" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.0" />
+        <state line="1" column="12" selection-start="17" selection-end="18" vertical-scroll-proportion="-0.6785714">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib_managed/srcs/org.mortbay.jetty/servlet-api/servlet-api-2.5-20081211-sources.jar!/javax/servlet/http/HttpServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="22" selection-start="3144" selection-end="3144" vertical-scroll-proportion="0.0" />
+        <state line="11" column="29" selection-start="377" selection-end="377" vertical-scroll-proportion="-3.8">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib_managed/srcs/org.apache.avro/avro-ipc/avro-ipc-1.7.0-sources.jar!/org/apache/avro/ipc/Responder.java">
+    <entry file="jar://$PROJECT_DIR$/lib_managed/jars/net.liftweb/lift-webkit_2.9.1/lift-webkit_2.9.1-2.4.jar!/net/liftweb/builtin/snippet/Menu.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="22" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.0" />
+        <state line="5" column="93" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib_managed/srcs/org.apache.avro/avro-ipc/avro-ipc-1.7.0-sources.jar!/org/apache/avro/ipc/specific/SpecificResponder.java">
+    <entry file="jar://$PROJECT_DIR$/lib_managed/srcs/net.liftweb/lift-webkit_2.9.1/lift-webkit_2.9.1-2.4-sources.jar!/net/liftweb/builtin/snippet/Menu.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="51" selection-start="2613" selection-end="2613" vertical-scroll-proportion="0.0" />
+        <state line="261" column="32" selection-start="10808" selection-end="10808" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib_managed/srcs/org.apache.avro/avro-ipc/avro-ipc-1.7.0-sources.jar!/org/apache/avro/ipc/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="17" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0" />
+        <state line="14" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="-9.5">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib_managed/srcs/org.apache.avro/avro-ipc/avro-ipc-1.7.0-sources.jar!/org/apache/avro/ipc/HttpTransceiver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates-hidden/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="22" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.0" />
+        <state line="57" column="30" selection-start="1114" selection-end="1114" vertical-scroll-proportion="-2.6727273">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.9.1/org.scala-sbt/sbt/0.11.3/main_2.9.1-0.11.3.jar!/sbt/Build.class">
+    <entry file="jar://$PROJECT_DIR$/lib_managed/srcs/net.liftweb/lift-webkit_2.9.1/lift-webkit_2.9.1-2.4-sources.jar!/net/liftweb/sitemap/Menu.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" />
+        <state line="559" column="6" selection-start="19237" selection-end="19237" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.9.1/org.scala-sbt/sbt/0.11.3/main_2.9.1-0.11.3.jar!/sbt/Project.class">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="14" selection-start="2375" selection-end="2375" vertical-scroll-proportion="0.0" />
+        <state line="23" column="25" selection-start="440" selection-end="440" vertical-scroll-proportion="-5.6296296">
+          <folding>
+            <element signature="e#27#47#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spark/project/SparkBuild.scala">
+    <entry file="file://$PROJECT_DIR$/sbt/sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="50" selection-start="614" selection-end="642" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib_managed/srcs/org.apache.avro/avro-ipc/avro-ipc-1.7.0-sources.jar!/org/apache/avro/ipc/ResponderServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="66" selection-start="1645" selection-end="1645" vertical-scroll-proportion="0.578125">
+        <state line="4" column="24" selection-start="236" selection-end="236" vertical-scroll-proportion="0.14901961">
           <folding />
         </state>
       </provider>
@@ -983,7 +923,6 @@
             <option name="proportions">
               <list>
                 <option value="0.11111111" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1003,7 +942,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>com.thoughtworks.paranamer_paranamer_2.3</last-edited>
+          <last-edited>scala-compiler</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

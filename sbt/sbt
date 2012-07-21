@@ -1,0 +1,4 @@
+#!/bin/bash
+EXTRA_ARGS="-Dsbt.global.base=project/.sbtboot -Dsbt.boot.directory=project/.boot -Dsbt.ivy.home=project/.ivy"
+HOME=$(cd "$(dirname $0)/.."; pwd)
+java -Xmx800M -XX:MaxPermSize=150m $EXTRA_ARGS -jar $HOME/sbt-launch.jar "$@"
