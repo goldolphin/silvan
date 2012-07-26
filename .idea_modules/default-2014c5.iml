@@ -34,6 +34,7 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/../lib_managed/srcs" />
           <root url="jar://$MODULE_DIR$/../lib_managed/srcs/net.liftweb/lift-webkit_2.9.1/lift-webkit_2.9.1-2.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../lib_managed/srcs/net.liftweb/lift-webkit_2.9.1/lift-webkit_2.9.1-2.4-sources.jar!/" />
         </SOURCES>
         <jarDirectory url="file://$MODULE_DIR$/../lib_managed/bundles" recursive="true" />
         <jarDirectory url="file://$MODULE_DIR$/../lib_managed/jars" recursive="true" />

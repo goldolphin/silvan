@@ -28,3 +28,5 @@ libraryDependencies += "org.mortbay.jetty" % "jetty" % "6.1.22" % "container"
 // slf4j
 libraryDependencies += "org.slf4j" % "slf4j-simple" % "1.6.6"
 
+// jsoup
+libraryDependencies += "org.jsoup" % "jsoup" % "1.6.3"
