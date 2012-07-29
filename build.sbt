@@ -30,3 +30,6 @@ libraryDependencies += "org.slf4j" % "slf4j-simple" % "1.6.6"
 
 // jsoup
 libraryDependencies += "org.jsoup" % "jsoup" % "1.6.3"
+
+// json
+libraryDependencies += "org.json" % "json" % "20090211"
