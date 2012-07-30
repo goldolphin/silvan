@@ -7,12 +7,12 @@ package net.goldolphin.silvan.avro;
 
 @SuppressWarnings("all")
 public interface SilvanApi {
-  public static final org.apache.avro.Protocol PROTOCOL = org.apache.avro.Protocol.parse("{\"protocol\":\"SilvanApi\",\"namespace\":\"net.goldolphin.silvan.avro\",\"types\":[{\"type\":\"record\",\"name\":\"Message\",\"fields\":[{\"name\":\"to\",\"type\":\"string\"},{\"name\":\"from\",\"type\":\"string\"},{\"name\":\"body\",\"type\":\"string\"}]}],\"messages\":{\"send\":{\"request\":[{\"name\":\"message\",\"type\":\"Message\"}],\"response\":\"string\"}}}");
-  java.lang.CharSequence send(net.goldolphin.silvan.avro.Message message) throws org.apache.avro.AvroRemoteException;
+  public static final org.apache.avro.Protocol PROTOCOL = org.apache.avro.Protocol.parse("{\"protocol\":\"SilvanApi\",\"namespace\":\"net.goldolphin.silvan.avro\",\"types\":[{\"type\":\"record\",\"name\":\"Product\",\"fields\":[{\"name\":\"primaryName\",\"type\":\"string\"},{\"name\":\"secondaryName\",\"type\":\"string\"},{\"name\":\"subline\",\"type\":\"string\"},{\"name\":\"spec\",\"type\":\"string\"},{\"name\":\"price\",\"type\":\"string\"},{\"name\":\"url\",\"type\":\"string\"}]}],\"messages\":{\"getProductByUrl\":{\"request\":[{\"name\":\"url\",\"type\":\"string\"},{\"name\":\"product\",\"type\":\"Product\"}],\"response\":\"Product\"}}}");
+  net.goldolphin.silvan.avro.Product getProductByUrl(java.lang.CharSequence url, net.goldolphin.silvan.avro.Product product) throws org.apache.avro.AvroRemoteException;
 
   @SuppressWarnings("all")
   public interface Callback extends SilvanApi {
     public static final org.apache.avro.Protocol PROTOCOL = net.goldolphin.silvan.avro.SilvanApi.PROTOCOL;
-    void send(net.goldolphin.silvan.avro.Message message, org.apache.avro.ipc.Callback<java.lang.CharSequence> callback) throws java.io.IOException;
+    void getProductByUrl(java.lang.CharSequence url, net.goldolphin.silvan.avro.Product product, org.apache.avro.ipc.Callback<net.goldolphin.silvan.avro.Product> callback) throws java.io.IOException;
   }
 }

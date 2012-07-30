@@ -1,6 +1,6 @@
 package net.goldolphin.silvan.api
 
-import net.goldolphin.silvan.avro.{Message, SilvanApi}
+import net.goldolphin.silvan.avro.{Product, SilvanApi}
 
 /**
  * Author: caofx
@@ -8,8 +8,5 @@ import net.goldolphin.silvan.avro.{Message, SilvanApi}
  */
 
 object ApiProcessor extends SilvanApi {
-
-  def send(message: Message): CharSequence = {
-    null
-  }
+  def getProductByUrl(url: CharSequence, product: Product): Product = null
 }
