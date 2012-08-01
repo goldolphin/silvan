@@ -7,6 +7,7 @@ import org.codehaus.jackson.{JsonFactory, JsonGenerator}
 import org.apache.avro.ipc.specific.SpecificResponder
 import net.goldolphin.silvan.api.ApiProcessor
 import org.apache.avro.specific.{SpecificDatumReader, SpecificDatumWriter}
+import org.apache.avro.generic.GenericRecordBuilder
 
 /**
  * Author: goldolphin
@@ -34,6 +35,8 @@ object SilvanServlet {
     val p1 = reader.read(null, decoder)
     println(p1)
 
-    SilvanApi.PROTOCOL.getMessages.get("getProductByUrl").getRequest
+    val message = SilvanApi.PROTOCOL.getMessages.get("getProductByUrl")
+    val r = new GenericRecordBuilder(message.re)
+    println(message.getRequest)
   }
 }

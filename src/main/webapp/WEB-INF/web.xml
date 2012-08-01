@@ -5,6 +5,16 @@ PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
 "http://java.sun.com/dtd/web-app_2_3.dtd">
 
 <web-app>
+    <servlet>
+        <servlet-name>silvan</servlet-name>
+        <servlet-class>net.goldolphin.silvan.web.SilvanServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>silvan</servlet-name>
+        <url-pattern>/api</url-pattern>
+    </servlet-mapping>
+    <!--
 <filter>
   <filter-name>LiftFilter</filter-name>
   <display-name>Lift Filter</display-name>
@@ -17,5 +27,5 @@ PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
   <filter-name>LiftFilter</filter-name>
   <url-pattern>/*</url-pattern>
 </filter-mapping>
-
+    -->
 </web-app>
